@@ -1,0 +1,94 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+body {
+  /* width: 1200px; */
+  font-family: poppins;
+  height: 100px;
+  padding-right: 10px;
+  /* padding-left: 5px; */
+  /* padding: 0; */
+  /* margin: 0; */
+}
+
+.header {
+  background-color: #d4e7c5;
+  line-height: 70px;
+  padding: 30px;
+}
+
+a,
+a:hover {
+  text-decoration: none !important;
+  color: black;
+}
+
+.logout {
+  float: right;
+  padding-right: 30px;
+}
+
+ul {
+  flex-direction: column;
+  background-color: #d4e7c5;
+  width: 19%;
+  height: 155%;
+  position: absolute;
+  padding-top: 5%;
+  text-align: left;
+  /* margin-bottom: -100%; */
+  /* padding-bottom: 47%; */
+  margin: 0 auto;
+}
+
+ul li {
+  list-style: none;
+  padding-bottom: 30px;
+  font-size: 1em;
+}
+
+ul li a {
+  color: black;
+  font-weight: bold;
+}
+
+ul li a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.content {
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+hr {
+  width: 50%;
+}
+
+#my-chart {
+  width: 100%;
+  /* max-width: 300px; */
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+
+p {
+  color: black;
+  font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  ul {
+    /* flex-direction: column; */
+    /* background-color: #d9d9d9; */
+    /* width: 20%; */
+    /* height: 50vh; */
+    /* margin-bottom: -100%; */
+    /* padding-bottom: 55%; */
+  }
+}
